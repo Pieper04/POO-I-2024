@@ -1,1 +1,2 @@
-versçao kit 8 / 2024
+https://www.oracle.com/br/java/technologies/downloads/#jdk21-windows
+2024
