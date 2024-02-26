@@ -1,0 +1,15 @@
+public class Main {
+    public static void main(String[] args) {
+        //while
+        int a = 0;
+        int b = 10;
+        while (a <= b){
+            a++;	
+        }
+
+        //do while
+        do {
+            
+        } while (valor != 0);
+    }
+}

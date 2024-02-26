@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        // for inicio; condicao; incremento
+        int numeroFinal = 5;
+        int soma = 0;
+        for (int i = 1; i <= numeroFinal; i++) {
+            soma += 1 ;
+        }
+        
+        System.out.println(soma);
+    }
+}

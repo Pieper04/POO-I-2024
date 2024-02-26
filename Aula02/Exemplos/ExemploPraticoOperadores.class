@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        int total = 10;
+         System.out.println(total += 3); // 13
+         System.out.println(total -= 2); // 11
+         System.out.println(total *= 3); // 33
+         System.out.println(total /= 3); // 11
+    }
+}

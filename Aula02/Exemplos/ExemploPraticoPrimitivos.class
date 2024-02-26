@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+      long x = 10;
+
+      int y = (int) x;
+      System.out.println(y);
+      
+      double a = 20.5;
+      
+      float b = (float) a;
+      System.out.println(b);
+      
+      double largura = 100.3;
+      
+      int tamanho = (int) largura;
+      System.out.println(tamanho);
+    }
+}

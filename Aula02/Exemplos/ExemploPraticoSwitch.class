@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String[] args) {
+        switch (finalPlaca) {
+            case 1 : 
+                System.out.println("Alo");
+            case 2 : 
+                System.out.println("Alo");
+            default:
+                System.out.println("resposta padrão");
+        }
+        
+        // OBS: **break**
+    }
+}
