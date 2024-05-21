@@ -7,6 +7,7 @@ public class Database {
          
     private static Connection connect() {            		
         String url = "jdbc:sqlite:db\\data.db";            
+         
         Connection connection = null;
         try {
             connection = DriverManager.getConnection(url);
@@ -14,11 +15,13 @@ public class Database {
             e.printStackTrace();        
         }
 
-        return connection;                                  
+        return connection;
+                                             
     }
 
     public static boolean executeSQL(String sql){
         boolean ok = false;
+
         Connection currentConnection = connect();
         
         try {
@@ -30,6 +33,7 @@ public class Database {
             e1.printStackTrace();
             ok = false;
         } 
+
         return ok;
     }
 

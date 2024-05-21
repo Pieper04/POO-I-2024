@@ -33,6 +33,7 @@ public abstract class SQLClass{
                 keyName = field.getName();
             }            
         }
+
         return keyName;
     }
             
@@ -67,6 +68,7 @@ public abstract class SQLClass{
         }
 
         this.fieldsValuesList = fieldsValuesString.substring(1);
+        
     }
 
     protected void listFields(){
@@ -104,7 +106,6 @@ public abstract class SQLClass{
         this.listFields();                
         return "insert into "+this.tableName + " ("+this.fieldsList+" ) values ("+this.valuesList+")";
     }
-
 
     public String deleteSQL(){
         return "delete from "+this.tableName + " where " + this.getKey() + " = " + this.getValueKey();
